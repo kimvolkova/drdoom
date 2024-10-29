@@ -1,4 +1,6 @@
 <?php
+
+function regresarConexion(){
 $host = 'localhost';
 $db   = 'clinica_odontologica';
 $user = 'root'; 
@@ -17,4 +19,6 @@ try {
 } catch (\PDOException $e) {
     throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
+}
+
 ?>

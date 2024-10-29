@@ -105,7 +105,6 @@
 <?php endblock() ?>
 
 <script src="assets/js/calendario.js"></script>
-<script>const base_url = '<?php echo base_url; ?>';</script>
 <script>
 let frm = document.getElementById('formulario_citas');  
 frm.addEventListener('submit', function(e){
